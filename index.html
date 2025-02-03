@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Камень-ножницы-бумага</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="game">
+		<h1>Камень-ножницы-бумага</h1>
+		<div class="counter-block">
+			<div class="count count-user" id="player-score">0</div>
+			<span>:</span>
+			<div class="count count-comp" id="comp-score">0</div>
+		</div>
+		<div class="figure-container">
+			<div class="user-field">
+				<button class="field rock" id="rock" data-field="rock">Камень</button>
+				<button class="field scissors" id="scissors" data-field="scissors">Ножницы</button>
+				<button class="field paper" id="paper" data-field="paper">Бумага</button>
+			</div>
+		</div>
+		<h3 class="result" id="result-text">Сделайте выбор</h3>
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
